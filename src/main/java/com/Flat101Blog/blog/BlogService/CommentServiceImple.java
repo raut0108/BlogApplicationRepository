@@ -1,4 +1,4 @@
 package com.Flat101Blog.blog.BlogService;
 
-public interface PostServiceImpl {
+public class CommentServiceImple {
 }
