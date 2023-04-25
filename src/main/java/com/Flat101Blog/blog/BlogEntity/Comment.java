@@ -10,7 +10,7 @@ import java.util.Date;
 
 @Entity
 public class Comment {
-
+     // comment
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
   private int cid;
