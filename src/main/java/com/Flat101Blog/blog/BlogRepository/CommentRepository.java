@@ -1,4 +1,4 @@
 package com.Flat101Blog.blog.BlogRepository;
 
-public class CommentRepository {
+public interface CommentRepository {
 }
