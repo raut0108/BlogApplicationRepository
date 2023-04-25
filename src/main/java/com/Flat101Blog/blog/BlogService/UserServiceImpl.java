@@ -1,4 +1,4 @@
 package com.Flat101Blog.blog.BlogService;
 
-public interface UserServiceImpl {
+public class UserServiceImpl {
 }
