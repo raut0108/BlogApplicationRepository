@@ -4,7 +4,10 @@ import com.Flat101Blog.blog.BlogEntity.Post;
 
 import java.util.List;
 
+
 public interface PostService  {
+
+
 
        public void AddPost(Post post);
        public Post UpdatePost(Post post);

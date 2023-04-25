@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class PostContoller {
 
+
     PostService postservice;
 
     @Autowired
@@ -18,8 +19,8 @@ public class PostContoller {
     }
 
 
-    @PostMapping
-     public void AddPost(@RequestBody Post post)
+    @PostMapping("/post")
+     public void AddPost1(@RequestBody Post post)
      {
          postservice.AddPost(post);
      }
